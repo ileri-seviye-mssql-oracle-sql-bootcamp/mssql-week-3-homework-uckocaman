@@ -1,0 +1,5 @@
+SELECT [urunKod]
+      ,[urunAd]
+      ,[listeFiyat]
+      ,[listeFiyat] * [KDVoran] + [listeFiyat]  AS [SATIÞ FÝYATI]
+  FROM [Dukkan].[dbo].[tblUrun]
